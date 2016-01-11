@@ -2,6 +2,11 @@
 
 Single quotes!
 
+PostgreSQL requires the following databses:
+
+- `postgres`
+- `<username>` (your username)
+
 ## Able to Do
 
 - Create database
