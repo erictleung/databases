@@ -37,3 +37,4 @@ Otherwise you can specify where the data will be deposited with:
     - `db.<collections>.insert([<JSON OBJECTS>])` - add list of objects to db
 - `db.<collections>.find()` - display data in collections
     - `db.<collections>.find().pretty()` - pretty print data in collection
+    - `db.<collections>.findOne()` - get only one document object
