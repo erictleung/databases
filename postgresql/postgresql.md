@@ -18,6 +18,7 @@ Single quotes!
 $ createdb <DB NAME> # create database by name
 $ dropdb <DB NAME> # drop/delete database by name
 $ psql <DB NAME> # start PostgreSQL in particular database
+$ psql -l # list all the databases in the server
 ```
 
 ## Basic Interactive Commands
@@ -37,4 +38,7 @@ SELECT current_date;
 
 -- run PostgreSQL script
 \i path/to/script.sql
+
+-- list all databases
+\l
 ```
