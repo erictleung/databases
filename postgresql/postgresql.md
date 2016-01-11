@@ -47,3 +47,16 @@ SELECT current_date;
 -- list all databases
 \l
 ```
+
+## Datatypes
+
+- `int`
+- `smallint`
+- `real`
+- `double precision`
+- `char(N)`
+- `varchar(N)`
+- `date`
+- `time`
+- `timestamp`
+- `interval`
