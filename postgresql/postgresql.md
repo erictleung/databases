@@ -24,6 +24,7 @@ $ createdb <DB NAME> # create database by name
 $ dropdb <DB NAME> # drop/delete database by name
 $ psql <DB NAME> # start PostgreSQL in particular database
 $ psql -l # list all the databases in the server
+$ psql -f <script_name>.sql # run script from CLI
 ```
 
 ## Basic Interactive Commands

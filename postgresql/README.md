@@ -1,7 +1,4 @@
 # PostgreSQL
 
-We can run SQL scripts from the command line with the following:
-
-```Shell
-psql -f countries.sql
-```
+Here are my notes on using the relational databasse management system,
+PostgreSQL.
