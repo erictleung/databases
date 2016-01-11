@@ -33,6 +33,9 @@ $ psql -f <script_name>.sql # run script from CLI
 -- find version of PostgreSQL
 SELECT version();
 
+-- simple arithmetic
+SELECT 2 + 2;
+
 -- get current date
 SELECT current_date;
 
@@ -47,6 +50,9 @@ SELECT current_date;
 
 -- list all databases
 \l
+
+-- copy large amounts of data from flat-text files (specific to PostgreSQL)
+COPY weather FROM '/home/user/weather.txt';
 ```
 
 ## Datatypes
