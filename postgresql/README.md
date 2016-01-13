@@ -7,6 +7,26 @@ PostgreSQL requires the following databses:
 - `postgres`
 - `<username>` (your username)
 
+## Installation
+
+### Homebrew
+
+```
+brew install postgresql
+```
+
+### Macports
+
+```
+sudo port install postgresqlXX # XX = version number
+```
+
+### Website
+
+[PostgreSQL Core Distribution and binary packages][download]
+
+[download]: http://www.postgresql.org/download/
+
 ## Able to Do
 
 - Create database
