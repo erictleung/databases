@@ -4,8 +4,12 @@ Code and notes on running various database management systems.
 
 ## SQL
 
-- PostgreSQL [http://www.postgresql.org/](http://www.postgresql.org/)
+- PostgreSQL [http://www.postgresql.org/][psql]
+
+[psql]: http://www.postgresql.org/
 
 ## NoSQL
 
-- N/A
+- MongoDB [https://www.mongodb.org/][mongo]
+
+[mongo]: https://www.mongodb.org/
