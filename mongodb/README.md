@@ -12,22 +12,23 @@ other package managers that'll help you. When in doubt, their
 *Homebrew*
 
 ```
-> brew mongodb
+$ brew mongodb
 ```
 
 *Macports*
 
 ```
-> sudo port install mongodb
+$ sudo port install mongodb # database management system itself
+$ sudo port install mongo-tools # utility tools like mongoimport, to import data
 ```
 
 ## Usage
 
-Default, data will be deposited in `/data/db` (on Linux/MacOS systems).
+Default, data will be deposited in `/data/db` (on Linux/OSX systems).
 Otherwise you can specify where the data will be deposited with:
 
 ```
-> mongod --dbpath <path to data directory>
+$ mongod --dbpath <path to data directory>
 ```
 
 ## `mongo` Shell Notes
