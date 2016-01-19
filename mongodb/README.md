@@ -39,5 +39,15 @@ $ mongod --dbpath <path to data directory>
 - `db.<collections>.insert({<JSON OBJECT>})` - insert one JSON object to db
     - `db.<collections>.insert([<JSON OBJECTS>])` - add list of objects to db
 - `db.<collections>.find()` - display data in collections
-    - `db.<collections>.find().pretty()` - pretty print data in collection
-    - `db.<collections>.findOne()` - get only one document object
+    - Search with "Key": "Value"
+        - `db.<collections>.find().pretty()` - pretty print data in collection
+        - `db.<collections>.findOne()` - get only one document object
+    - Conditional search criteria
+        - `$or` - search multiple criteria that match at least one criteria
+        - `$gt` - greater than
+        - `$lt` - less than
+        - `$ne` - not equal to
+    - Return data you only want instead of all key-values
+        - e.g. Return only name and no object ID `{"name":1, _id:0}`
+    - Add method `.limit(n)` to limit to `n` number of results
+    - Add method `.skip(n)` to skip `n` results
